@@ -290,7 +290,7 @@ def local_css():
 
 # --- 메인 실행 로직 ---
 def main():
-    set_background('배경2.png')
+    set_background('배경3.png')
     local_css()
 
     st.markdown('<div class="main-title">SKIN CHEMI</div>', unsafe_allow_html=True)
