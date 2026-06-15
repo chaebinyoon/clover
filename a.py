@@ -4,7 +4,8 @@ import base64
 import os
 
 # --- 페이지 설정 ---
-st.set_page_config(page_title="SKIN CHEMI - 성분 궁합 솔루션", layout="wide")
+
+st.set_page_config(page_title="SKIN CHEMI - 성분 궁합 솔루션", page_icon="💙", layout="wide")
 
 # --- 데이터 로드 함수 ---
 @st.cache_data
